@@ -38,7 +38,8 @@ const getNumbers = () => {
   return [...Array(100).keys()];
 };
 const getIcons = (uppercase) => {
-  let icons = "airplane,battery,binoculars,bug,camera,cart,cloud,egg,flower1,flower2";
+  let icons =
+    "airplane,battery,binoculars,bug,camera,cart,cloud,egg,gift,handbag,heart,house,lamp,lightbulb,sun,moon,star,wind,person,sunglases,pentagon,piggy-bank,plug,puzzle,robot, tree,trophy,truck,wallet,watch";
   if (uppercase) {
     icons = icons.toUpperCase();
   }
